@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.use('/', express.static('public', {
-	index: 'HTML/contact.html'
+	index: 'contact.html'
 }));
 
 const listener = app.listen(3000, () =>{
